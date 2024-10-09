@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+    footer ul{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        margin: 10px 0 10px 10px;
+    }
+}
+
+@media (max-width: 670px){
+    nav > ul{transform: translateY(-350px);}
+    nav > img{display: block; position: fixed; right: 35px;}
+    nav > ul > li a{color: white;}
+
+    .info{flex-direction: column !important;}
+    .info p{max-width: 90vw;}
+}
+
+@media (max-width: 500px){
+    footer .text{flex-direction: column !important;}
+    footer .text p{margin-bottom: 10px;}
+}
+
+@media (max-width: 450px){
+    footer .lower{flex-direction: column !important;}
+    footer ul{width: 90%;}
+}

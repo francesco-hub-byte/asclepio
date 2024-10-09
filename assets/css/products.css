@@ -1,0 +1,134 @@
+@import url('style.css');
+
+
+
+/*** ABOUT US HERO ***/
+
+#page-hero{
+    width: 100%; height: 20vh;
+    background-color: var(--bordeaux);
+    color: white;
+    font-size: 2em;
+}
+
+.title{margin: 75px 20px 20px 0;}
+.title span{
+    width: 125px; height: 30px;
+    display: block;
+    border-radius: 0 15px 15px 0;
+    background-color: #E4D5D7;
+}
+
+.title h2{
+    display: inline;
+    position: relative;
+    top: -22px; left: 30px;
+    color: #97595F;
+}
+
+
+
+/*** MORE INFO ***/
+
+.info{justify-content: space-around !important;}
+.info p{
+    max-width: 50vw;
+    margin: 25px;
+}
+
+.logo{
+    width: 25vw; height: 25vw;
+    overflow: hidden;
+    background: url('../images/logo.jpg') no-repeat;
+    background-size: auto;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+
+.ad-message{text-align: center; margin: 100px 25px; font-weight: bold;}
+.ad-message button{
+    width: 20vh;
+    margin: 20px;
+    padding: 0;
+    border-radius: 20px;
+    
+}
+.ad-message button img{width: 20vh;}
+
+.img-box{ display: inline; }
+.img1{ margin-right: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.img2{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/* Container principale */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Immagini dello slider */
+.slides {
+    display: none;
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Stile delle frecce */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Posizione delle frecce */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Hover su frecce */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Effetto dissolvenza (fade) */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/*** CONTACTS SECTION ***/
+
+#contacts{margin: 25px 0 100px 0;}
+#contacts p{margin: 0 0 0 25px;}
+#contacts .title{margin-bottom: 0;}
+#contacts a{color: var(--bordeaux);}
