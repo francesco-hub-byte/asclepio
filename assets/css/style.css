@@ -31,7 +31,6 @@ button{border: none; outline: none; background: none; cursor: pointer;}
 
 
 /*   NAVBAR - HEADER   */
-
 nav{
     width: 100vw; height: 70px;
     position: fixed;
@@ -98,13 +97,11 @@ nav > ul > li > button:hover{color: white;}
 
 
 /*   MAIN   */
-
 main{position: relative; top: 70px;}
 
 
 
 /*   MAIN - HERO   */
-
 #hero{
     width: 100%; height: calc(100vh - 70px);
     color: white;

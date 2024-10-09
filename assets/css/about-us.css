@@ -31,10 +31,7 @@
 /*** MORE INFO ***/
 
 .info{justify-content: space-around !important;}
-.info p{
-    max-width: 50vw;
-    margin: 25px;
-}
+.info p{max-width: 50vw; margin: 25px;}
 
 .logo{
     width: 25vw; height: 25vw;
@@ -58,7 +55,6 @@
 
 
 /*** CONTACTS SECTION ***/
-
 #contacts{margin: 25px 0 100px 0;}
 #contacts p{margin: 0 0 0 25px;}
 #contacts .title{margin-bottom: 0;}
